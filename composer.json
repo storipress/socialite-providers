@@ -10,12 +10,12 @@
     "socialiteproviders/manager": "^4.4"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.39",
+    "ergebnis/composer-normalize": "^2.42",
+    "larastan/larastan": "^2.8",
     "laravel/pint": "^1.13",
-    "nunomaduro/larastan": "^2.6",
-    "orchestra/testbench": "^8.15",
+    "orchestra/testbench": "^8.21",
     "pestphp/pest-plugin-laravel": "^2.2",
-    "pestphp/pest-plugin-type-coverage": "^2.4"
+    "pestphp/pest-plugin-type-coverage": "^2.8"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,

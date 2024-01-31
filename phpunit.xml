@@ -25,7 +25,6 @@
   </testsuites>
   <coverage>
     <report>
-      <clover outputFile="clover.xml"/>
       <html outputDirectory="coverage" lowUpperBound="80" highLowerBound="95"/>
     </report>
   </coverage>
