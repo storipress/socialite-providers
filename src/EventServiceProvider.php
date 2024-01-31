@@ -6,6 +6,7 @@ namespace Storipress\SocialiteProviders;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use SocialiteProviders\Manager\SocialiteWasCalled;
+use Storipress\SocialiteProviders\Twitter\TwitterSocialite;
 use Storipress\SocialiteProviders\Webflow\WebflowSocialite;
 
 class EventServiceProvider extends ServiceProvider
@@ -17,6 +18,7 @@ class EventServiceProvider extends ServiceProvider
      */
     protected $listen = [
         SocialiteWasCalled::class => [
+            TwitterSocialite::class,
             WebflowSocialite::class,
         ],
     ];
